@@ -1,0 +1,24 @@
+{
+  "name": "@splayer-mobile/ncm-core",
+  "version": "0.0.1",
+  "private": true,
+  "description": "SPlayer 移动版 NCM 直连客户端核心层（加密/请求/配置），移植自 SPlayer-Next。纯 JS，RN 可用。",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test:parity": "tsx test/parity.test.ts",
+    "test:unblock": "tsx test/unblock-check.ts"
+  },
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "crypto-js": "^4.2.0",
+    "pako": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/crypto-js": "^4.2.2",
+    "@types/pako": "^2.0.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

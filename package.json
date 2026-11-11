@@ -2,21 +2,43 @@
   "name": "app",
   "version": "1.0.0",
   "main": "index.ts",
-  "dependencies": {
-    "expo": "~57.0.13",
-    "expo-status-bar": "~57.0.1",
-    "react": "19.2.3",
-    "react-native": "0.86.2"
-  },
-  "devDependencies": {
-    "@types/react": "~19.2.2",
-    "typescript": "~6.0.3"
-  },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-cookies/cookies": "^6.2.1",
+    "@react-navigation/bottom-tabs": "^7.18.16",
+    "@react-navigation/native": "^7.3.16",
+    "@react-navigation/native-stack": "^7.18.8",
+    "bn.js": "^5.2.5",
+    "crypto-js": "^4.2.0",
+    "expo": "~52.0.46",
+    "expo-asset": "~11.0.5",
+    "expo-dev-client": "~5.0.20",
+    "expo-file-system": "~18.0.12",
+    "expo-status-bar": "~2.0.1",
+    "pako": "^3.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-track-player": "^4.1.2",
+    "react-native-webview": "13.12.5",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/bn.js": "^5.2.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/pako": "^2.0.4",
+    "@types/react": "~18.3.12",
+    "sharp": "^0.35.3",
+    "typescript": "~5.9.3"
   },
   "private": true
 }
